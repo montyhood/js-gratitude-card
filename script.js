@@ -5,5 +5,5 @@
     }
 
   function displayText() {
-        document.getElementById("smalltext").innerHTML = "Please standby. Your image is being created...";
+        document.getElementById("smalltext").innerHTML = "Your image is being created...";
   }
