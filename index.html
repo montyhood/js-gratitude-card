@@ -10,12 +10,13 @@
 
 <div class="container">
 
-  <img class="exampleimage" src="https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png">
+  <img class="exampleimage" id="imgClickAndChange" src="https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png">
+<!--   <img class="exampleimage" src="https://files.outfit.io/media_library_items/349586/gratitude-bg-option2-withtext.png"> -->
 
 <div class="radiobuttoncontainer">
   <div class="row">
-    <div class="column"><input type="radio" name="backgroundimage" value="https://files.outfit.io/media_library_items/349584/gratitude-bg-option1.png" checked>Option 1</div>
-    <div class="column"><input type="radio" name="backgroundimage" value="https://files.outfit.io/media_library_items/349583/gratitude-bg-option2.png">Option 2</div>
+    <div class="column"><input type="radio" name="backgroundimage" id="imagechoice" onclick="changeImage()" value="https://files.outfit.io/media_library_items/349584/gratitude-bg-option1.png" checked>Option 1</div>
+    <div class="column"><input type="radio" name="backgroundimage" id="imagechoice" onclick="changeImage()" value="https://files.outfit.io/media_library_items/349583/gratitude-bg-option2.png">Option 2</div>
   </div>
 </div>
 
