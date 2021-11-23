@@ -8,14 +8,13 @@
         document.getElementById("smalltext").innerHTML = "Your image is being created...";
   }
 
-      function changeImage() {
-
-          if (document.getElementById("imgClickAndChange").src == "https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png")
-          {
-              document.getElementById("imgClickAndChange").src = "https://files.outfit.io/media_library_items/349586/gratitude-bg-option2-withtext.png";
-          }
-          else
-          {
-              document.getElementById("imgClickAndChange").src = "https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png";
-          }
+  function changeImage() {
+      if (document.getElementById("imgClickAndChange").src == "https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png")
+        {
+          document.getElementById("imgClickAndChange").src = "https://files.outfit.io/media_library_items/349586/gratitude-bg-option2-withtext.png";
+        }
+      else
+        {
+          document.getElementById("imgClickAndChange").src = "https://files.outfit.io/media_library_items/349582/gratitude-bg-option1-withtext.png";
+        }
       }
